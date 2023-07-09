@@ -1,8 +1,5 @@
 /* common styles */
-*{
-    margin: 0;
-    padding: 0;
-}
+
 body{
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
@@ -40,16 +37,22 @@ padding: 15px 35px;
     font-weight: 700;
     line-height: normal;
     margin-bottom: 30px;
-}
+}section{
+    
+    margin: 130px auto 0px;
+    max-width: 1140px;
+   }
 
 /* Nav related css */
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px  200px;
+    margin: 0px  200px;
+    
 
 }
+
 .nav-title{
 color: #181818;
 font-size: 45px;
@@ -72,11 +75,7 @@ nav a {
 .header{
     background-color: #fff;
 }
-section{
-    
-    margin: 130px auto 0px;
-    max-width: 1140px;
-   }
+
 /* Banner */
 .banner{
      padding: 30px 30px 0px 150px; 
@@ -86,6 +85,9 @@ section{
     background-image:url('../images/header_bg.png'),url('../images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right,top left;
+     background-size: auto,contain;
+     margin-left: 20px; 
+   
     
     
 }
@@ -98,13 +100,13 @@ color: #474747;
 font-family: Open Sans;
 font-size: 45px;
 font-weight: 600;
+margin-bottom: 0px;
 
 }
 .banner-title{
 color:  #181818;
 font-family: Open Sans;
 font-size: 85px;
-
 font-weight: 800;
 margin-bottom: 20px;
 margin-top: 05px;
@@ -132,6 +134,7 @@ margin-bottom: 40px;
 }
 .banner-content{
     max-width: 600px;
+    
 }
 /* MAin section */
 
