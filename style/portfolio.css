@@ -22,6 +22,24 @@ padding: 15px 35px;
 
 }
 
+.description{
+    color:  #757575;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.title{
+    color:  #181818;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: normal;
+}
+
 /* Nav related css */
 nav{
     display: flex;
@@ -94,6 +112,7 @@ font-size: 18px;
 font-weight: 400;
 margin-bottom: 40px;
 
+
 }
 .banner-btn{
     color:#FD6E0A;
@@ -104,3 +123,26 @@ margin-bottom: 40px;
 .banner-content{
     max-width: 600px;
 }
+/* MAin section */
+
+/* about me section */
+   .about-me{
+    border-radius: 10px;
+    background: #FFF8F3;
+    padding: 130px 150px;
+    text-align: center;
+    margin: auto;
+   }
+   .about{
+    margin: 130px auto;
+    max-width: 1140px;
+   }
+   .about-me-des{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+   }
+   .about-title{
+    margin-bottom: 30px;
+   }
