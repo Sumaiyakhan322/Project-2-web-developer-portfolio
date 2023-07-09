@@ -121,6 +121,9 @@ margin-bottom: 40px;
 
 
 }
+.banner button{
+    margin-bottom: 40px;
+}
 .banner-btn{
     color:#FD6E0A;
     background-color: white;
@@ -228,6 +231,48 @@ margin-bottom: 30px;
     text-align: center;
     margin: 30px 0px 130px;
 }
+/* footer section */
+footer{
+    padding: 130px 230px;
+    background-color: #FFF8F3;
+}
+.footer-content{
+    display: flex;
+    gap: 100px;
+    }
+.footer-content p {
+ padding-right: 20px;
+ margin-bottom: 40px;
+}
+.footer-des i{
+   font-size: 20px;
+   margin-right: 15px;
+}
+
+    
+
+
+.footer-content h1{
+    text-align: start;
+}
+.footer-des,.footer-info{
+    width: 50%;
+}
+input,textarea{
+    display: block;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    color: #757575;
+    font-family: Open Sans;
+    border: none;
+
+}
+input[type="text"],input[type="email"],textarea{
+    width: 100%;
+}
+
 
 
 
