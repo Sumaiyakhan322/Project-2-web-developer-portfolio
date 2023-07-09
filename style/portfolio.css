@@ -12,13 +12,11 @@ body{
     color: #FD6E0A;
 }
 .primary-button{
-    border-radius: 5px;
+border-radius: 5px;
 background: #FD6E0A;
 border: none;
 color:  #FFF;
-
 font-size: 20px;
-
 font-weight: 700;
 padding: 15px 35px;
 
@@ -29,7 +27,8 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px ;
+    margin: 20px  200px;
+
 }
 .nav-title{
 color: #181818;
@@ -48,4 +47,60 @@ nav li{
 nav a {
     text-decoration: none;
     color: #474747;
+}
+/* header */
+.header{
+    background-color: #fff;
+}
+/* Banner */
+.banner{
+     padding: 30px 30px 0px 150px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image:url('../images/header_bg.png'),url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right,top left;
+    
+    
+}
+
+.profile-pic{
+    width: 500px;
+}
+.banner-greeting{
+color: #474747;
+font-family: Open Sans;
+font-size: 45px;
+font-weight: 600;
+
+}
+.banner-title{
+color:  #181818;
+font-family: Open Sans;
+font-size: 85px;
+
+font-weight: 800;
+margin-bottom: 20px;
+margin-top: 05px;
+
+
+
+}
+.banner-description{
+color:  #757575;
+font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+margin-bottom: 40px;
+
+}
+.banner-btn{
+    color:#FD6E0A;
+    background-color: white;
+    border: 1px solid #FD6E0A ;
+    margin-left: 30px;
+}
+.banner-content{
+    max-width: 600px;
 }
