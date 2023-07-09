@@ -30,6 +30,7 @@ padding: 15px 35px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
+    margin-bottom: 30px;
 }
 .title{
     color:  #181818;
@@ -38,6 +39,7 @@ padding: 15px 35px;
     font-size: 35px;
     font-weight: 700;
     line-height: normal;
+    margin-bottom: 30px;
 }
 
 /* Nav related css */
@@ -70,6 +72,11 @@ nav a {
 .header{
     background-color: #fff;
 }
+section{
+    
+    margin: 130px auto 0px;
+    max-width: 1140px;
+   }
 /* Banner */
 .banner{
      padding: 30px 30px 0px 150px; 
@@ -133,16 +140,42 @@ margin-bottom: 40px;
     text-align: center;
     margin: auto;
    }
-   .about{
-    margin: 130px auto;
-    max-width: 1140px;
-   }
+   
+   
    .about-me-des{
     display: flex;
     align-items: center;
     justify-content: space-around;
     margin-top: 30px;
    }
-   .about-title{
-    margin-bottom: 30px;
+   .about-me-des p{
+    margin-bottom: 0px;
    }
+   /* Experience */
+.my-experience{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.my-experience-des{
+    padding: 30px;
+    box-shadow: 4px 8px 20px gray;
+    border-radius: 5px;
+    
+}
+.my-experience-des p,h4{
+    text-align: start;
+}
+.my-experience-des p{
+    font-size: 16px;
+   margin-top: 30px;
+   margin-bottom: 0px;
+}
+.my-experience-des h4{
+    margin-top: 30px;
+}
+.experience >p{
+    padding: 0px 60px;
+    margin-bottom: 50px;
+}
+
