@@ -236,7 +236,7 @@ margin-bottom: 30px;
 }
 /* footer section */
 footer{
-    padding: 130px 230px;
+    padding: 80px 230px;
     background-color: #FFF8F3;
 }
 .footer-content{
@@ -265,8 +265,8 @@ input,textarea{
     display: block;
     font-size: 16px;
     border-radius: 5px;
-    margin: 10px;
-    padding: 15px;
+    margin: 12px;
+    padding: 12px;
     color: #757575;
     font-family: Open Sans;
     border: none;
